@@ -26,7 +26,8 @@ ul{
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
-    list-style-type: none;  
+    list-style-type: none;
+    align-items: center;  
 }
 header div{
     width: 100%;
@@ -36,4 +37,28 @@ header div{
 li{
     display: block;
     margin-right: 20px;
+}
+/* styling first site */
+img#resource{
+    width: 1200px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+img.picture{
+    height: 200px;
+    width: 300px;
+}
+div#mission{
+    position: absolute;
+    background-color: black;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    margin-top: 50vh;
+}
+div h6,h2,h4,h1,h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
