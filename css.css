@@ -132,4 +132,7 @@ div.eme p{
     text-align: center;
     margin-top: 30px;
 }
-
+p.finally{
+    text-align: left;
+    margin-left: 20px;
+}
