@@ -62,3 +62,33 @@ div h6,h2,h4,h1,h5{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* styling second site */
+div.blitz{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+div.month,div.month h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.myrtle{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    margin: auto;
+    margin-bottom: 40px;
+}
+div h6,h2,h4,h1,h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.berry{
+    text-align: center;
+}
+div.place{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+div.tea{
+    text-align: center;
+}
