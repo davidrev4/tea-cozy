@@ -92,3 +92,44 @@ div.place{
 div.tea{
     text-align: center;
 }
+/* third site */
+div.do{
+    background-image: url(../../assignments/media/locations-background.jpg);
+    width: 1150px;
+    height: 500px;
+    display: grid;
+    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    padding: 30px;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 5px;
+    opacity: 1;
+    background-repeat: no-repeat;
+}
+div.mobile h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img#who{
+    /* position: absolute; */
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+div.eme h5{
+    text-align: center;
+    margin-top: 30px;
+}
+div.eme p{
+    text-align: center;
+    margin-top: 30px;
+}
+
